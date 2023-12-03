@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfessorActivity4">
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="140dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="232dp"
+        android:text="찾아가기"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView19" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="140dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="12dp"
+        android:text="찾아가기"
+        android:textSize="22sp"
+        android:onClick="goToChaProfessor"
+        app:layout_constraintStart_toEndOf="@+id/imageView18"
+        app:layout_constraintTop_toBottomOf="@+id/textView1" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="140dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="568dp"
+        android:text="찾아가기"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView20" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="50dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#99CCFF"
+        android:onClick="goToProfessorPage5"
+        android:text="&gt;"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.033" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="50dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="16dp"
+        android:backgroundTint="#99CCFF"
+        android:onClick="goToProfessorPage3"
+        android:text="&lt;"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="135dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="76dp"
+        android:text="공학관 B동 316호"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView18"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="135dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="12dp"
+        android:text="공학관 B동 408호"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button5"
+        app:layout_constraintStart_toEndOf="@+id/imageView19" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="135dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="12dp"
+        android:text="공학관 B동  306호"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button6"
+        app:layout_constraintStart_toStartOf="@+id/button6" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="287dp"
+        android:layout_height="285dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/prof13" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="354dp"
+        android:layout_height="351dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginBottom="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/prof14" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="293dp"
+        android:layout_height="286dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="292dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/prof15" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="139dp"
+        android:layout_height="135dp"
+        android:layout_marginEnd="460dp"
+        android:layout_marginBottom="236dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/prof16_1" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="295dp"
+        android:layout_height="163dp"
+        android:layout_marginEnd="284dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView21"
+        app:srcCompat="@drawable/prof16_2" />
+
+    <Button
+        android:id="@+id/button4_Exit"
+        android:layout_width="95dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="뒤로가기"
+        android:onClick="goToSecondPage4"
+        android:textSize = "15sp"
+        android:textStyle = "bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

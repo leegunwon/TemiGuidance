@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfessorActivity3">
+
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="140dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="232dp"
+        android:text="찾아가기"
+        android:onClick="goToLeeProfessor"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView15" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="140dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="164dp"
+        android:text="찾아가기"
+        android:onClick="goToChuProfessor"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="140dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="436dp"
+        android:layout_marginTop="12dp"
+        android:text="찾아가기"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView1" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="140dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="160dp"
+        android:text="찾아가기"
+        android:onClick="goToCheongProfessor"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="50dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="1148dp"
+        android:layout_marginTop="348dp"
+        android:backgroundTint="#99CCFF"
+        android:onClick="goToProfessorPage4"
+        android:text="&gt;"
+        android:textSize="22sp"
+        app:layout_constraintStart_toEndOf="@+id/button9"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="50dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="352dp"
+        android:backgroundTint="#99CCFF"
+        android:onClick="goToProfessorPage2"
+        android:text="&lt;"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="135dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="436dp"
+        android:layout_marginTop="76dp"
+        android:text="공학관 C동 206호"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="135dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="212dp"
+        android:layout_marginBottom="20dp"
+        android:text="공학관 B동 311호"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button5"
+        app:layout_constraintStart_toEndOf="@+id/imageView14" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="135dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="76dp"
+        android:text="공학관 B동 406호"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView16"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="135dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="404dp"
+        android:layout_marginEnd="164dp"
+        android:text="공학관 B동 310호"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="328dp"
+        android:layout_height="293dp"
+        android:layout_marginStart="100dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView14"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.482"
+        app:srcCompat="@drawable/prof9" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="126dp"
+        android:layout_height="132dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView15"
+        app:layout_constraintEnd_toStartOf="@+id/button5"
+        app:layout_constraintHorizontal_bias="0.326"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/prof10_1" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="303dp"
+        android:layout_height="167dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginBottom="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/prof10_2" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="290dp"
+        android:layout_height="293dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="316dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/prof11" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="288dp"
+        android:layout_height="313dp"
+        android:layout_marginEnd="304dp"
+        android:layout_marginBottom="76dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/prof12" />
+
+    <Button
+        android:id="@+id/button3_Exit"
+        android:layout_width="96dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="뒤로가기"
+        android:onClick="goToSecondPage3"
+        android:textSize = "15sp"
+        android:textStyle = "bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

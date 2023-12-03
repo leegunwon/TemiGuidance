@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WhereToGoActivity">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="489dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="50dp"
+        android:text="배송지를 선택해주세요"
+        android:textSize="50sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_call1"
+        android:layout_width="150dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="192dp"
+        android:text="남대훈 교수님"
+        android:onClick="goToNamDaeProfessor_d"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_call2"
+        android:layout_width="150dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="192dp"
+        android:text="심재홍 교수님"
+        android:onClick="goToShimProfessor_d"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/button_call1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_call3"
+        android:layout_width="150dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="192dp"
+        android:text="이양희 교수님"
+        android:onClick="goToYangProfessor_d"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/button_call2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_call4"
+        android:layout_width="150dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="192dp"
+        android:text="이익현 교수님"
+        android:onClick="goToIckProfessor_d"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/button_call3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_call5"
+        android:layout_width="150dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="192dp"
+        android:text="차동혁 교수님"
+        android:onClick="goToChaProfessor_d"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/button_call4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_call6"
+        android:layout_width="150dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="400dp"
+        android:text="김효영 교수님"
+        android:onClick="goToHyoProfessor_d"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_call7"
+        android:layout_width="150dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="400dp"
+        android:text="김기현 교수님"
+        android:onClick="goToKiProfessor_d"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/button_call6"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_call8"
+        android:layout_width="150dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="400dp"
+        android:text="남윤석 교수님"
+        android:onClick="goToNamProfessor_d"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/button_call7"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_call9"
+        android:layout_width="150dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="400dp"
+        android:text="주형길 교수님"
+        android:onClick="goToChuProfessor_d"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/button_call8"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_call10"
+        android:layout_width="150dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="400dp"
+        android:text="정명진 교수님"
+        android:onClick="goToCheongProfessor_d"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/button_call9"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_call11"
+        android:layout_width="150dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="600dp"
+        android:text="학과 사무실"
+        android:onClick="goToOfficeProfessor_d"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

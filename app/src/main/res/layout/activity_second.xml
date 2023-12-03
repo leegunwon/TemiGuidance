@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="585dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="28dp"
+        app:srcCompat="@drawable/my_image" />
+
+    <Button
+        android:id="@+id/button_to_prof"
+        android:layout_width="270dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="600dp"
+        android:onClick="goToProfessorPage"
+        android:text="교수님 찾아가기"
+        android:textSize="24sp"
+        android:textStyle="bold"
+
+        />
+
+    <Button
+        android:id="@+id/button_to_off"
+        android:layout_width="270dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="450dp"
+        android:text="학과 사무실 찾아가기"
+        android:onClick="goToOffice"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_to_lec"
+        android:layout_width="270dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="300dp"
+        android:onClick="goToLectureHallPage"
+        android:text="강의실 찾아가기"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonExitApp"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="702dp"
+        android:backgroundTint="#F05650"
+        android:onClick="toMain"
+        android:text="안내 끝내기"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="806dp"
+        android:layout_height="487dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="404dp"
+        android:layout_marginBottom="250dp" >
+    </WebView>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="553dp"
+        android:layout_height="184dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="652dp"
+        android:layout_marginBottom="33dp"
+        app:srcCompat="@drawable/my_image3" />
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button4"-->
+    <!--        android:layout_width="250dp"-->
+    <!--        android:layout_height="100dp"-->
+    <!--        android:layout_alignParentEnd="true"-->
+    <!--        android:layout_alignParentBottom="true"-->
+    <!--        android:layout_marginEnd="960dp"-->
+    <!--        android:layout_marginBottom="65dp"-->
+    <!--        android:text="교과목 체계도   메카트로닉스공학"-->
+    <!--        android:textSize="26sp" />-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button5"-->
+    <!--        android:layout_width="250dp"-->
+    <!--        android:layout_height="100dp"-->
+    <!--        android:layout_alignParentEnd="true"-->
+    <!--        android:layout_alignParentBottom="true"-->
+    <!--        android:layout_marginEnd="669dp"-->
+    <!--        android:layout_marginBottom="65dp"-->
+    <!--        android:text="교과목 체계도   AI로봇전공"-->
+    <!--        android:textSize="26sp" />-->
+
+</RelativeLayout>
